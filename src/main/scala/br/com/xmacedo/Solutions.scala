@@ -1,8 +1,16 @@
 package br.com.xmacedo
+import org.apache.commons.lang3.StringUtils
 
 object Solutions {
   def main(args: Array[String]) = {
-    solveProblem1(args.toString)
+
+
+      if(args(0)==1)
+        solveProblem1(args(1))
+
+      solveProblem2(args(1).toInt)
+
+
   }
 
   def solveProblem1(text: String) : String = {

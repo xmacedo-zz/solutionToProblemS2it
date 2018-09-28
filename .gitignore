@@ -1,2 +1,7 @@
 *.class
 *.log
+.idea/
+project/target/streams/compile/compileIncSetup/
+src/test/
+target/
+project/
